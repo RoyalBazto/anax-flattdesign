@@ -7,4 +7,20 @@ The primary focus of this site is to:
 
 The source for this site is available on GitHub in [canax/anax-flat](git@github.com:canax/anax-flat.git).
 
-This site is produced by [JOhan Liljeberg](https://johanliljeberg.se) (jolp16@dbwebb.se).
+This site is produced by [Johan Liljeberg](https://johanliljeberg.se) (jolp16@dbwebb.se).
+
+<a href="https://github.com/RoyalBazto">RoyalBazto Github</a>
+
+
+<img src="img/spider-clipart-halloween-spider-web-transparent.png" alt="alt text">
+---
+views:
+    byline:
+        region: after-main
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
+...
